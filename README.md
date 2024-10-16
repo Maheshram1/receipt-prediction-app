@@ -1,0 +1,1 @@
+# receipt-prediction-app
