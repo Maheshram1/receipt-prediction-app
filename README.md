@@ -16,37 +16,40 @@ This application predicts receipt counts for a given year using an LSTM neural n
 ## Installation
 
 1. Clone the repository:
-git clone (https://github.com/Maheshram1/receipt-prediction-app.git)
+`git clone https://github.com/Maheshram1/receipt-prediction-app.git`
 
-2. cd receipt-prediction-app
+2. `cd receipt-prediction-app`
 
 3. Create a virtual environment and activate it:
+
+```
 python3 -m venv venv
 
 source venv/bin/activate
+```
 
 5. Install the required packages:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Usage
 
 ### Running with Python
 
 1. Train the model:
-python fetch.py (We can avoid this since I've already uploaded the weights)
+`python fetch.py` (We can avoid this since I've already uploaded the weights)
 
 2. Start the Streamlit app:
-streamlit run app.py
+`streamlit run app.py`
 
 3. Open a web browser and go to `http://localhost:8501`
 
 ### Running with Docker
 
 1. Build the Docker image:
-docker build -t receipt-prediction-app .
+`docker build -t receipt-prediction-app .`
 
 2. Run the Docker container:
-docker run -p 8501:8501 receipt-prediction-app
+`docker run -p 8501:8501 receipt-prediction-app`
 
 3. Open a web browser and go to `http://localhost:8501`
 
