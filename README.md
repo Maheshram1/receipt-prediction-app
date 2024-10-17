@@ -16,7 +16,7 @@ This application predicts receipt counts for a given year using an LSTM neural n
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/receipt-prediction-app.git
+git clone (https://github.com/Maheshram1/receipt-prediction-app.git)
 cd receipt-prediction-app
 
 2. Create a virtual environment and activate it:
