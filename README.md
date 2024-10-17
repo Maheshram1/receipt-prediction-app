@@ -17,13 +17,14 @@ This application predicts receipt counts for a given year using an LSTM neural n
 
 1. Clone the repository:
 git clone (https://github.com/Maheshram1/receipt-prediction-app.git)
+
 cd receipt-prediction-app
 
-2. Create a virtual environment and activate it:
+3. Create a virtual environment and activate it:
 python3 -m venv venv
 source venv/bin/activate
 
-3. Install the required packages:
+4. Install the required packages:
 pip install -r requirements.txt
 
 ## Usage
