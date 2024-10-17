@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ### Running with Python
 
 1. Train the model:
-python fetch.py
+python fetch.py (We can avoid this since I've already uploaded the weights)
 
 2. Start the Streamlit app:
 streamlit run app.py
