@@ -22,9 +22,10 @@ git clone (https://github.com/Maheshram1/receipt-prediction-app.git)
 
 3. Create a virtual environment and activate it:
 python3 -m venv venv
+
 source venv/bin/activate
 
-4. Install the required packages:
+5. Install the required packages:
 pip install -r requirements.txt
 
 ## Usage
